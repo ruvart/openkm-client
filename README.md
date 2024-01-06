@@ -19,9 +19,13 @@ To be honest, I will only attend to them when I have time. I hope you can unders
 
 
 
-Requires
+Installation
 -----------
 PHP 8.0 or above.
+
+``` sh
+$ composer require ruvart/openkm-client
+```
 
 
 Basic Usage

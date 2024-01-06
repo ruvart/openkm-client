@@ -3,7 +3,7 @@
     "version": "0.1", 
     "description": "A generic unofficial REST API client for PHP for connecting with an OpenKM Server.", 
     "type": "library", 
-    "keywords": ["REST", "api", "client", "curl", "JSON", "XML", "OpenKM"], 
+    "keywords": ["REST", "api", "OpenKM", "client", "curl", "JSON", "XML"], 
     "homepage": "http://github.com/ruvart/openkm-client", 
     "license": "MIT", 
     "authors": [
@@ -21,8 +21,11 @@
     }, 
     "require-dev": {
         "php": ">=8.0"
-    }, 
+    },
     "autoload": {
-        "files": ["openkmclient.php"]
+        "psr-4": {
+            "Ruvart\\OpenKMClient\\": "src/"
+        },
+        "files": ["src/openkmclient.php"]
     }
 }

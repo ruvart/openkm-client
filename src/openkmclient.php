@@ -12,6 +12,8 @@
  * @version 0.1
 */
 
+namespace Ruvart\OpenKMClient;
+
 class OpenKMClientException extends Exception {}
 
 class OpenKMClient {

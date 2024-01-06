@@ -14,8 +14,6 @@
 
 namespace Ruvart\OpenKMClient;
 
-class OpenKMClientException extends Exception {}
-
 class OpenKMClient {
 
 

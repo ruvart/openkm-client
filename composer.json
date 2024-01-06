@@ -1,6 +1,6 @@
 {
     "name": "ruvart/openkm-client", 
-    "version": "0.2", 
+    "version": "0.3", 
     "description": "A generic unofficial REST API client for PHP for connecting with an OpenKM Server.", 
     "type": "library", 
     "keywords": ["REST", "api", "OpenKM", "client", "curl", "JSON", "XML"], 
